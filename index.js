@@ -1269,7 +1269,7 @@ case 'timer':
                       buff = await getBuffer(anu.result)
                       client.sendMessage(from, buff, image, {quoted: mek})
                       break
-                         case 'play':   
+                         case 'tocar':   
 	          if (!isUser) return reply(mess.only.daftarB)
                 reply(mess.wait)
                 play = body.slice(5)

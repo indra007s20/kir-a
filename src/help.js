@@ -90,7 +90,7 @@ const help = (prefix) => {
   └─ ❏ ${prefix}memeindo
 ◪ *SOM*
   │
-  ├─ ❏ ${prefix}tocar
+  ├─ ❏ ${prefix}play
   └─ ❏ ${prefix}tts
 ◪ *MÚSICA*
   │

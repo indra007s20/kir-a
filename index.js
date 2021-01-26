@@ -1273,7 +1273,7 @@ case 'timer':
 	          if (!isUser) return reply(mess.only.daftarB)
                 reply(mess.wait)
                 play = body.slice(5)
-                anu = await fetchJson(`https://api.zeks.xyz/api/ytplaymp3?q=${play}&apikey=apivinz`)
+                anu = await fetchJson(`https://arugaz.my.id/api/media/ytsearch?query=${body.slice(6)}`)
                if (anu.error) return reply(anu.error)
                  infomp3 = `*Canção encontrada!!!*\nJudul : ${anu.result.title}\nFonte : ${anu.result.source}\nTamanho : ${anu.result.size}\n\n*ESPERE ENVIANDO POR FAVOR, NÃO SPAM YA PAI*`
                 buffer = await getBuffer(anu.result.thumbnail)

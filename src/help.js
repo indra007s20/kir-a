@@ -45,7 +45,7 @@ const help = (prefix) => {
 ║│Sobre : as vezes vai mais e uma foto de um menino
 ║╰───────────
 ║╭───────────
-║│➸${prefix}imagens
+║│➸${prefix}imagem
 ║│Sobre : esse pesquisa qual quer foto do pinterest
 ║╰───────────
 ║╭───────────

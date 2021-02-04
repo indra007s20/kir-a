@@ -1,6 +1,9 @@
 const help = (prefix) => {
-	return `	
-	IAE ${name} COMO VC ESTA? ESPERO QUE ESTEJA BEM ESSE E O MENU DO BOT
+	return `
+
+IAE COMO VC ESTA? ESPERO QUE ESTEJA BEM ESSE E O MENU DO BOT
+
+
 ❉──────────❉
 
    「 *PAIN BOT* 」

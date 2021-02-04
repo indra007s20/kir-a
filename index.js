@@ -349,7 +349,6 @@ async function starts() {
         
 				case 'help':
 				case 'menu':
-				msgFilter.addFilter(from)
 					client.sendMessage(from, help(prefix), text)
 					break
                                 /*case 'makermenu':
